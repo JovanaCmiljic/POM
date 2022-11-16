@@ -1,0 +1,5 @@
+C:\Users\User\source\repos\zadatak\POMSeleniumTestI\POMSeleniumTestI\obj\Debug\net6.0\POMSeleniumTestI.csproj.AssemblyReference.cache
+C:\Users\User\source\repos\zadatak\POMSeleniumTestI\POMSeleniumTestI\obj\Debug\net6.0\POMSeleniumTestI.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\source\repos\zadatak\POMSeleniumTestI\POMSeleniumTestI\obj\Debug\net6.0\POMSeleniumTestI.AssemblyInfoInputs.cache
+C:\Users\User\source\repos\zadatak\POMSeleniumTestI\POMSeleniumTestI\obj\Debug\net6.0\POMSeleniumTestI.AssemblyInfo.cs
+C:\Users\User\source\repos\zadatak\POMSeleniumTestI\POMSeleniumTestI\obj\Debug\net6.0\POMSeleniumTestI.csproj.CoreCompileInputs.cache
