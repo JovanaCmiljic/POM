@@ -55,14 +55,15 @@ namespace POMSeleniumTestI
         public void TC03_OpenAlert_ShouldDisplayed()
         {
             Login("execute", "automation");
-            
+            _homePage.Alert();
+
         }
 
 
         public void Login(string name, string pass)
         {
             _loginPage.LoginOnPage(name, pass);
-            _homePage.Alert();
+         
         }
     }
 
