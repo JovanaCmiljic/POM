@@ -33,12 +33,12 @@ namespace POMSeleniumTestI
             Login("execute", "automation");
 
             _homePage.EnterTitle("Ms.");
-            _homePage.EnterInitial("JC");
-            _homePage.EnterFirstName("Petar");
-            _homePage.EnterMiddleName("Tamara");
-            _homePage.EnterGender("female");
-            _homePage.EnterLanguages("english");
-            _homePage.EnterButton();
+            _homePage.Initial.SendKeys("JC");
+            _homePage.FirstName.SendKeys("Petar");
+            _homePage.MiddleName.SendKeys("Tamara");
+            _homePage.Female.Click();
+            _homePage.Hindi.Click();
+            _homePage.SaveButton.Click();
         }
 
         [Test]
@@ -55,14 +55,14 @@ namespace POMSeleniumTestI
         public void TC03_OpenAlert_ShouldDisplayed()
         {
             Login("execute", "automation");
-
-
+            
         }
 
 
         public void Login(string name, string pass)
         {
             _loginPage.LoginOnPage(name, pass);
+            _homePage.Alert();
         }
     }
 
