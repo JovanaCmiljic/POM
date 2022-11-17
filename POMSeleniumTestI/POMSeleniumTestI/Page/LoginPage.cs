@@ -15,17 +15,17 @@ namespace POMSeleniumTestI.Page
 
 
 
-        IWebElement UserName = driver.FindElement(By.Id("UserName"));
+        public IWebElement UserName => driver.FindElement(By.Name("UserName"));
 
-        IWebElement Password = driver.FindElement(By.Id("Password"));
+        public IWebElement Password => driver.FindElement(By.Name("Password"));
 
-        IWebElement LoginButton = driver.FindElement(By.Id("login-button"));
+        public IWebElement LoginButton => driver.FindElement(By.Name("Login"));
 
         public void LoginOnPage(string name, string password)
         {
             UserName.SendKeys(name);
             Password.SendKeys(password);
-            LoginButton.Click();
+            LoginButton.Submit();
         }
 
     }
